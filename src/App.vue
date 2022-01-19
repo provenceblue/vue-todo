@@ -16,28 +16,6 @@ import TodoFooter from './components/TodoFooter.vue';
 
 
 export default {
-  data(){
-    return{
-      todoItems:[]
-    }
-  },
-  methods:{
-    // removeOneItem(todoItem, index){
-    //   localStorage.removeItem(todoItem.item);
-    //   this.todoItems.splice(index,1);
-    // },
-    // toggleOneItem(todoItem, index){
-    //   this.todoItems[index].completed = !this.todoItems[index].completed
-    //   localStorage.removeItem(todoItem.item);
-    //   localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
-
-    // },
-    // clearAllItems(){
-    //   localStorage.clear();
-    //   this.todoItems=[];
-
-    // }
-  },
   components: {
     TodoHeader,
     TodoInput,
